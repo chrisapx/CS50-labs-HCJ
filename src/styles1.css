@@ -1,0 +1,24 @@
+body{
+    background-color: aqua;
+}
+
+body > main > .mapouter{
+    visibility: hidden;
+    align-items: center;
+
+}
+/* .mapouter{
+    padding: auto; 
+    align-items: center
+   
+} */
+
+body > main > .reg > #uname{
+    font-size: 20px;
+    color: blue;
+}
+
+.labels{
+    align-content: flex-end;
+    /* text-indent: 20%; */
+}

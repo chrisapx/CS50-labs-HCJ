@@ -1,5 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
+    <head>   
+        <link href="styles1.css", rel="stylesheet">
+        <script src="home.js"></script>
+    </head> 
     <!-- <meta > -->
     <title>
         CS50-HCJ-forms
@@ -11,7 +15,10 @@
         <main>
 
             <!-- Form -->
-            <form action="onSubmit">
+            <form action="onSubmit" class="reg">
+                
+                <div class="labels">
+
                 <label for="username", id="uname"> Username
                     <input type="text", placeholder="username">
                 </label>  <br>
@@ -33,7 +40,9 @@
                     <input type="number", placeholder="+256 712345678", autocomplete="tel-area-code", autofocus>
                 </label>
                 
-                
+                <button class="smtbtn", type="submit">submit</button>
+
+                </div>
                 <input type="checkbox" name="accept terms" id="terms">
             </form>
 
@@ -64,6 +73,14 @@
                 <source src="v.mp4", type="video/mp4" alt="CS50-HCJ-ALGOROTHS">
 
             </video>
+
+            <!-- map -->
+
+            <div class="mapouter"><div class="gmap_canvas"><iframe width="770" height="510" id="gmap_canvas"
+                src="https://maps.google.com/maps?q=uganda&t=&z=10&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0">
+            </iframe><a href="https://2yu.co">2yu</a><br><style>.mapouter{position:relative;text-align:right;height:510px;width:770px;}</style>
+            <a href="https://embedgooglemap.2yu.co">html embed google map</a>
+            <style>.gmap_canvas {overflow:hidden;background:none!important;height:510px;width:770px;}</style></div></div>
 
         </main>
         <footer>
