@@ -1,5 +1,6 @@
 body{
-    background-color: aqua;
+    background-color: rgb(255, 255, 255);
+    
 }
 
 body > main > .mapouter{
@@ -21,4 +22,11 @@ body > main > .reg > #uname{
 .labels{
     align-content: flex-end;
     /* text-indent: 20%; */
+}
+
+#gobtn{
+    background-color: blue;
+    display: flexbox;
+    position: relative;
+    position: fixed;
 }
