@@ -5,12 +5,28 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CS50-HCJ-forms</title>
+
+    <script src="home.js"> </script>
+
 </head>
 <body>
     
+    <!-- This takes a link as the action -->
     <form action="https://www.google.com/search">
         <input type="search" name="q" id="" placeholder="Enter search item">
         <input type="submit" value="search">
+    </form>
+
+    <!-- This takes a function on submit -->
+    <form onsubmit="greet()">
+        <input type="text" name="" id="name" placeholder="Enter name" autocomplete="off">
+        <button type="submit">Greet</button>
+    </form>
+
+    <!-- This takes a function on pointer move -->
+    <form onforminput ="cry()">
+        <input type="text" name="" id="smile" placeholder="Enter name" autocomplete="off">
+        <button type="submit">Greet</button>
     </form>
 
 </body>

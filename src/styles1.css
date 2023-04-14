@@ -3,6 +3,10 @@ body{
     
 }
 
+main{
+    text-align: center;
+}
+
 body > main > .mapouter{
     visibility: hidden;
     align-items: center;
