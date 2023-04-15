@@ -11,4 +11,55 @@
     padding: 20px;
     font-size: 30px;
     text-align: left;
+    grid-gap: 10px;
+    display: flex;
+    align-items: center;
+    }
+
+    #desc{
+        font-size: 18px;
+        display: flexbox;
+    }
+
+    .q-links{
+        display: grid;
+        gap: 12px;
+        /* grid-template-columns: auto max-content max-content max-content auto; */
+    }
+
+    /* .q-links > lk1{
+        text-align: right;
+    }
+
+    .q-links > lk5{
+        text-align: left;
+    } */
+
+    .c-rt{
+        text-align: center;
+    }
+
+    #ft{
+        padding: 100px;
+        background-color: darkslategray;
+        text-align: center;
+        margin: 10px;
+        margin-trim: in-flow;
+    }
+
+    .nav{
+        padding-top: 10px;
+        padding-bottom: 30px;
+        padding-left: 30px;
+        background-color: lightslategrey;
+    }
+
+    #bdy{
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
+    .main{
+        margin-left: 8%;
+        margin-right: 8%;
     }
